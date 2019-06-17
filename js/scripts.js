@@ -1,17 +1,20 @@
 $(document).ready(function() {
   console.log("jQuery is workin'");
-  $("#trout").click(function(event){
+  $("#trout").click(function(){
     $(".trout").text("The best place to eat with your dad: " + town.landmark)
   })
-  $("#Gresh").click(function(event){
+  $("#Gresh").click(function(){
     $(".gresham").text("The best place to eat with your mom: " + town2.landmark)
   })
-  $("#Ab").click(function(event){
+  $("#Ab").click(function(){
     $(".aberdeen").text("Hey check it out: " + town3.landmark + " is from this town")
   })
-  $("#Me").click(function(event){
+  $("#Me").click(function(){
     $(".medford").text("The best place to eat with your cat: " + town4.landmark)
+  })
+  $("#formOne").submit(function(event){
     event.preventDefault();
+    console.log("uts wirjung")
   })
 });
 

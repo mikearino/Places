@@ -1,0 +1,7 @@
+* {
+  color: green;
+}
+
+body {
+    background-image: repeating-radial-gradient(blue, red 10%, white 15%);
+}
